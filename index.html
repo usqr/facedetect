@@ -83,17 +83,23 @@
 		canvas {
 			max-width: 100%;
 		}
+		.header--inner-wrap {
+			max-width: 800px;
+			margin: 0 auto;
+		}
 	</style>
 </head>
 <body>
 	<header>
-		<h1>Shape Detection API</h1>
-	
-		<label><input type="radio" name="detection-type" value="face" checked="checked"> Face detection </label>
-		<label><input type="radio" name="detection-type" value="barcode"> Barcode detection <span class="label-description">Doesn't work reliably</span></label>
-		<label><input type="radio" name="detection-type" value="text"> Text detection <span class="label-description">Works best with high contrast...</span></label>
-		<div class="upload-label">Choose image file:</div>
-		<label class="upload-button"><input name="detection-file" type="file" accept="image/*" data-type="face">Upload file</label>
+		<div class="header--inner-wrap">
+			<h1>Shape Detection API</h1>
+		
+			<label><input type="radio" name="detection-type" value="face" checked="checked"> Face detection </label>
+			<label><input type="radio" name="detection-type" value="barcode"> Barcode detection <span class="label-description">Doesn't work reliably</span></label>
+			<label><input type="radio" name="detection-type" value="text"> Text detection <span class="label-description">Works best with high contrast...</span></label>
+			<div class="upload-label">Choose image file:</div>
+			<label class="upload-button"><input name="detection-file" type="file" accept="image/*" data-type="face">Upload file</label>
+		</div>
 	</header>
 
 	<div id="imageDisplay">
