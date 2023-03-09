@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/Comandeer/text-detection-api-demo#readme",
   "dependencies": {
-    "http-server": "^0.12.1"
+    "http-server": "^0.12.3"
   }
 }
